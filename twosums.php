@@ -10,6 +10,6 @@ function twoSum($nums, $target) {
             if($nums[$j] == $target -$nums[$i]){
                 return[$i,$j];
             }
-        }
+      }
     }
 }
