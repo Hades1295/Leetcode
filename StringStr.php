@@ -1,7 +1,8 @@
 <?php 
 $haystack = "hello"; $needle = "ll";
 
-print_r(strString($haystack, $needle));
-    function strString($haystack, $needle) {
-    return strpos($haystack, $needle);          
-    }
+function strStr($haystack, $needle) {
+    $strPos  = strpos($haystack, $needle);
+      return $strPos !== false ? $strPos : -1;
+
+  }
