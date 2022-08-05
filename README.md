@@ -1,3 +1,4 @@
 # Leetcode
-Solving Leet codes every Day From July2022
+Trying To solve Leetcode every day
+Trying to be a better coder and problem solver
 https://leetcode.com/Hades1295/
