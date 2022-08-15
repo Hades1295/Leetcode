@@ -1,0 +1,17 @@
+<?php
+// Given a valid (IPv4) IP address, return a defanged version of that IP address.
+// A defanged IP address replaces every period "." with "[.]".
+// Example 1:
+// Input: address = "1.1.1.1"
+// Output: "1[.]1[.]1[.]1"
+
+// Example 2:
+// Input: address = "255.100.50.0"
+// Output: "255[.]100[.]50[.]0"
+
+
+$address = "1.1.1.1";
+print_r(defangIPaddr($address));
+function defangIPaddr($address) {
+   return str_replace(".","[.]",$address);
+}
