@@ -28,9 +28,7 @@
         $arraySplit1= $arraySplit[0];
         $arraySplit2= $arraySplit[1];
         $temp= array();
-        //print_r($arraySplit1);
         for ($i=0; $i < $mid; $i++) { 
-            
         array_push($temp,$arraySplit1[$i]); 
         array_push($temp,$arraySplit2[$i]);
         }
